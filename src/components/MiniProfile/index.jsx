@@ -23,13 +23,13 @@ function MiniProfile() {
   return (
     <div className="flex flex-col ml-32 ">
       <div className="-mt-6  flex flex-row">
-        <Image src={"/dotaIcon.png"} width={100} height={150} />
+        <Image src={"/dotaIcon.png"} width={100} height={150} alt="dota icone" />
         <h3 className="font-mono text-lg font-bold text-white ml-2">Risotto Groupon</h3>
       </div>
       <div className="mt-8 p-6 flex flex-row justify-between bg-slate-500 bg-opacity-25">
-        <Image src={"/dotaIcon.png"} width={75} height={75} />
-        <Image src={"/dotaIcon.png"} width={75} height={75} />
-        <Image src={"/dotaIcon.png"} width={75} height={75} />
+        <Image src={"/dotaIcon.png"} width={75} height={75} alt="dota icone" />
+        <Image src={"/dotaIcon.png"} width={75} height={75} alt="dota icone" />
+        <Image src={"/dotaIcon.png"} width={75} height={75} alt="dota icone" />
       </div>
       <div className="mt-8 backdrop-blur-xl bg-slate-500 bg-opacity-25">
         <Radar data={data} />
